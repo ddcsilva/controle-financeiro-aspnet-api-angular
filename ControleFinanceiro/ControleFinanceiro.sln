@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.API", "ControleFinanceiro.API\ControleFinanceiro.API.csproj", "{3CCAE612-4BB3-4D13-9A6F-6B9388F5EE48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.API", "ControleFinanceiro.API\ControleFinanceiro.API.csproj", "{3CCAE612-4BB3-4D13-9A6F-6B9388F5EE48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.BLL", "ControleFinanceiro.BLL\ControleFinanceiro.BLL.csproj", "{E7AED42E-EB7E-40B9-AAAC-32C3F9EF47C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.DAL", "ControleFinanceiro.DAL\ControleFinanceiro.DAL.csproj", "{B8BFC1A7-33B8-43E9-97AE-6B686B35EBF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3CCAE612-4BB3-4D13-9A6F-6B9388F5EE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCAE612-4BB3-4D13-9A6F-6B9388F5EE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCAE612-4BB3-4D13-9A6F-6B9388F5EE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AED42E-EB7E-40B9-AAAC-32C3F9EF47C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AED42E-EB7E-40B9-AAAC-32C3F9EF47C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AED42E-EB7E-40B9-AAAC-32C3F9EF47C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AED42E-EB7E-40B9-AAAC-32C3F9EF47C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BFC1A7-33B8-43E9-97AE-6B686B35EBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BFC1A7-33B8-43E9-97AE-6B686B35EBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BFC1A7-33B8-43E9-97AE-6B686B35EBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BFC1A7-33B8-43E9-97AE-6B686B35EBF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
